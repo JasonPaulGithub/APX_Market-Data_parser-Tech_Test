@@ -1,4 +1,4 @@
-package net.sympower.cityzen.apx;
+package net.cityzen.apx;
 
 import org.junit.Test;
 
