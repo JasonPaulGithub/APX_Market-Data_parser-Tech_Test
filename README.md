@@ -1,8 +1,5 @@
 # APX market data parser
 
-Example of JSON data that we need to parse is available at
-`src/test/resources/net/sympower/cityzen/apx/apx-data.json`
-
 We need the following data for each hour of the day:
 
 * **date** ("date_applied" in JSON) - Date as milliseconds since start of epoch (start of day). Timezone seems to be Netherlands standard (with daylight saving).
