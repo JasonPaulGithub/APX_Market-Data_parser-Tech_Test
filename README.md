@@ -1,7 +1,5 @@
 # APX market data parser
 
-We need the following data for each hour of the day:
-
 * **date** ("date_applied" in JSON) - Date as milliseconds since start of epoch (start of day). Timezone seems to be Netherlands standard (with daylight saving).
 * **hour** - based on either "Order" or "Hour" field, we need to figure out the hour-of-day for which particular data row is applicable for.
 * **net volume** - use the value from "Net Volume" field
